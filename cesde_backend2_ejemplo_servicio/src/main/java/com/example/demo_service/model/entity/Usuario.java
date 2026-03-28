@@ -7,9 +7,10 @@ import lombok.*;
  * Entidad que representa a un Usuario en el sistema.
  * Se utilizan anotaciones de JPA para la persistencia y Lombok para reducir el código repetitivo (Boilerplate).
  */
-@Entity
+
 @Table(name = "usuarios")
 @Getter
+@Entity
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
